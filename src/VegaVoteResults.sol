@@ -6,7 +6,7 @@ import {AccessControl} from "@openzeppelin/contracts/access/AccessControl.sol";
 
 
 contract VegaVoteResults is ERC721, AccessControl {
-    event VotePublished(bytes32 indexed ID, uint256 timestamp, uint256 yesPower, uint256 noPower);
+    event VotePublished(bytes32 indexed id, uint256 timestamp, uint256 yesPower, uint256 noPower);
 
     struct Voting {
         bytes32 id;

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.33;
 
-import {Test, console} from "forge-std/Test.sol";
+import {Test} from "forge-std/Test.sol";
 import {VegaVoteToken} from "../src/VegaVoteToken.sol";
 import {VegaVoteResults} from "../src/VegaVoteResults.sol";
 import {VegaVoting} from "../src/VegaVoting.sol";
