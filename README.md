@@ -13,7 +13,7 @@
 
 | Контракт | Адрес в сети | Статус |
 | :--- | :--- | :--- |
-| **VegaVoteToken** | ** [`0xCdc24e2a7732a31E05943B06f866A23f7A475357`](https://sepolia.etherscan.io/address/0xCdc24e2a7732a31E05943B06f866A23f7A475357)| ✅ Verified |
+| **VegaVoteToken** | [`0xCdc24e2a7732a31E05943B06f866A23f7A475357`](https://sepolia.etherscan.io/address/0xCdc24e2a7732a31E05943B06f866A23f7A475357)| ✅ Verified |
 | **VegaVoteResults** | [`0xb210210c4C5C404047bcd4408128c05bD61E144e`](https://sepolia.etherscan.io/address/0xb210210c4C5C404047bcd4408128c05bD61E144e) | ✅ Verified |
 
 ## 🛠️ Технологии
