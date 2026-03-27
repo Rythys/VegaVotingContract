@@ -1,66 +1,30 @@
-## Foundry
+# 🗳️ VegaVote DAO
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Децентрализованная система голосования на базе смарт-контрактов Ethereum (Sepolia Testnet). Проект позволяет создавать голосования, учитывать веса участников через ERC-20 токены и фиксировать результаты в виде уникальных NFT.
 
-Foundry consists of:
+## 🏗️ Архитектура системы
 
-- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
-- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+Проект состоит из двух основных смарт-контрактов:
 
-## Documentation
+1.  **VegaVoteToken (VVT):** ERC-20 токен, который служит "голосом" участника. Чем больше токенов на балансе, тем выше влияние при принятии решений.
+2.  **VegaVoteResults (VVR):** Основная логика DAO. Контракт фиксирует результаты завершенных голосований и выпускает (минтит) NFT-результат для обеспечения прозрачности и неизменяемости истории.
 
-https://book.getfoundry.sh/
+## 🚀 Адреса контрактов (Sepolia)
 
-## Usage
+| Контракт | Адрес в сети | Статус |
+| :--- | :--- | :--- |
+| **VegaVoteToken** | `0xCdc24e2a77...` | ✅ Verified |
+| **VegaVoteResults** | `0xb210210c4c...` | ✅ Verified |
 
-### Build
+## 🛠️ Технологии
 
-```shell
-$ forge build
-```
+* **Solidity 0.8.33**
+* **Foundry** (Разработка, тестирование и деплой)
+* **OpenZeppelin** (Стандарты ERC-20, ERC-721 и AccessControl)
 
-### Test
+## 📥 Установка и запуск
 
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+1. **Клонируйте репозиторий:**
+   ```bash
+   git clone [https://github.com/ВАШ_ЛОГИН/vega-vote-dao.git](https://github.com/ВАШ_ЛОГИН/vega-vote-dao.git)
+   cd vega-vote-dao
