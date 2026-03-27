@@ -13,7 +13,7 @@
 ## 🚀 Ссылки на контракты (Sepolia Testnet)
 
 * **VegaVoteToken (VVT):** [`0x794c3766aF39bed9455BF0C96fD439295054DA91`](https://sepolia.etherscan.io/address/0x794c3766af39bed9455bf0c96fd439295054da91) — ✅ Verified
-* **VegaVoteResults (VVR):** [`0xb210210c4C5C404047bcd4408128c05bD61E144e`](https://sepolia.etherscan.io/address/0xb210210c4C5C404047bcd4408128c05bD61E144e) — ✅ Verified
+* **VegaVoteResults (VVR):** [`0xb210210c4C5C404047bcd4408128c05bD61E144e`](https://sepolia.etherscan.io/address/0xb210210c4C5C404047bcd4408128c05bD61E144e)
 * **VegaVoting:** 
 
 ## 🛠️ Технологии
